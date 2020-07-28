@@ -1,0 +1,63 @@
+.main-content{
+  padding: 1em;
+  .outer-div{
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    h4{
+      margin-bottom: 1em;    
+    }
+    p,b,button,.redirect-link{
+      font-size: 0.9em;    
+    }
+    .progressbar{
+      height: 5px;
+      margin-bottom: 2em;
+    }
+    .bank-login-btn,.add-acc-btn{
+      margin: 1em 0em;
+    }
+    .acc-container{
+      p{
+        padding-left: 2em;
+      }
+      label{
+        font-weight: 500;
+        font-size: 1.2em;
+      }
+    }
+    .policy-outer-div{
+      .panel-title{
+        margin-bottom: 1em;
+      }
+      .collapse-text{
+        padding-left: 1.5em;
+        font-size: 0.9em;
+      }
+      .collapse-heading{
+        color: inherit;
+        .collapse-icon{
+          float: right;
+          font-size: 1.4em;
+        }
+      }
+      .collapse-heading:hover{
+        text-decoration: none;
+      }
+    }
+    .selbank-outer-div{
+      div{
+        border: 1px solid #f0f0f0;
+        padding: 0.5em 0em;
+        text-align: left;
+        background-color: #f0f0f0;
+        margin-bottom: 1em;
+        span{
+          padding: 0.62em 1.2em;
+          background-color: #777;
+          margin-right: 0.5em;
+        }
+      }
+    }
+  }
+}

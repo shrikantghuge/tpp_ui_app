@@ -1,0 +1,30 @@
+.step-outer-div{
+  padding: 2em 0em;  
+  .step-container{
+    display: inline-flex;
+    .step{
+      padding: 1em 1.5em;
+      background-color: #ffffff;
+      border-radius: 50%;
+      font-size: 0.8em;
+      font-weight: 500;
+    }
+    .step.active{
+      background-color:#17a2b8;
+      color: #ffffff;
+    }
+    .step-heading{
+      position: absolute;
+      top: 10em;
+      font-size: 0.8em; 
+    }
+  }
+  .step-line{
+    hr{
+      display: table-cell;
+      padding: 0em 4em;
+      border-color: #ffffff;
+      border-width: 0.1em;
+    }
+  }
+}
